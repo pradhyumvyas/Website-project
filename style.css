@@ -1,0 +1,74 @@
+body {
+    background: rgb(44, 43, 88);
+    font-family: Varela Round, sans-serif;
+}
+
+.home {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    padding-top: 60px;
+    background: gray;
+    border-radius: 15px;
+    border: 2px solid rgb(126, 114, 114);
+    box-shadow: 6px;
+    margin-top: 40px;
+    background-image: url(3.jpg);
+    transition-duration: 0.4s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botton1 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.card-container {
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-align: center;
+}
+
+.containt {
+    padding: 20px;
+}
+
+.one {
+    margin: 15px;
+}
+.register{
+    background:gray;
+    width: 300px;
+    margin: 50px;
+    border: 6px;
+    border-radius: 15px;
+    box-shadow: 6px;
+}
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color:rgb(248, 253, 255);
+    display: inline-block;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+
